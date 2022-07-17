@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "next": "12.2.2",
+    "nextra": "^1.1.0",
+    "nextra-theme-docs": "^1.2.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "webpack": "^5.73.0"
   },
   "devDependencies": {
     "@types/node": "18.0.5",
