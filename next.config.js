@@ -2,6 +2,7 @@
 // const nextConfig = {
 //   reactStrictMode: true,
 //   swcMinify: true,
+//   basePath: "/exampleBasePathRoute",
 // };
 
 // module.exports = nextConfig;
@@ -12,5 +13,6 @@ const withNextra = require("nextra")({
   // optional: add `unstable_staticImage: true` to enable Nextra's auto image import
   reactStrictMode: true,
   swcMinify: true,
+  basePath: "/exampleBasePathRoute",
 });
 module.exports = withNextra();
